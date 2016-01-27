@@ -74,11 +74,11 @@ class ControllerProductProducts extends Controller {
 				
        		$this->data['products'] = array();
 				
-			$results = $this->model_catalog_product->getAllProducts($sort, $order, ($page - 1) * 4, 4);
+			$results = $this->model_catalog_product->getAllProducts($sort, $order, ($page - 1) * 4, 20);
         		
 			foreach ($results as $result) {
 					if ($result['image']) {
-						$image = 'no_image.jpg';//$result['image'];
+						$image = $result['image'];
 					} else {
 						$image = 'no_image.jpg';
 					}
@@ -171,7 +171,7 @@ class ControllerProductProducts extends Controller {
 			$pagination = new Pagination();
 			$pagination->total = $product_total;
 			$pagination->page = $page;
-			$pagination->limit = 4; 
+			$pagination->limit = 20;
 			$pagination->text = $this->language->get('text_pagination');
 			$pagination->url = $this->model_tool_seo_url->rewrite($this->url->http('product/products' . $url . '&page=%s'));
 		

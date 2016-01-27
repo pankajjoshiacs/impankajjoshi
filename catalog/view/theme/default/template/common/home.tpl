@@ -5,7 +5,7 @@
     <?php echo $column_left; ?>
     
     <div class="ContRight">
-      <div class="Banner"><img src="catalog/view/theme/default/images/banner.jpg" alt="Banner" /></div>
+      <div class="Banner"><img src="catalog/view/theme/default/images/banners.png" alt="Banner" /></div>
       <div class="ContRightBot">
       <div class="ContRightBotTitle">
         <div class="LtstLeft"></div>
@@ -20,8 +20,7 @@
         <div class="PdoucCat">
             <div class="PdoucPic"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" title="<?php echo $product['name']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
             <div class="ProductDetail"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
-            
-            <div class="ProductDetail"><?php echo $product['weight']; ?></div>
+
             <?php if ($display_price) { ?>
             
             <?php if (!$product['special']) { ?>

@@ -11,7 +11,7 @@
         <small>We'll do our best to help!</small>
       </div> 
       <div class="ContLeftDes" style="text-align:center;"> 
-        <big>+82-111-123-456-789</big>
+        <big>+81-80-6744-8068</big>
       </div>
       
       <!--<div class="ContLeftTitle"><img src="catalog/view/theme/default/images/safe.jpg" alt="Easy &amp; Safe Shopping" /></div>

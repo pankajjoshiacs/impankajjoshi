@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0a90bb1-f472-41c2-9ec3-c0413ff63d2f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/catalog/view/theme/default/images/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/catalog/view/theme/default/images/logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-248x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-250x250.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_logo-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_logo-248x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_logo-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_logo-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/apple_logo-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_1-248x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_1-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_1-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_2-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_2-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_3-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_3-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/catpic/beef-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/chicken/AMK Chinese Chilli (Srilanka)-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/chicken/AMK Samba Rice-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/chicken/Beef Boneless Australia-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/chicken/Chicken Leg Tray-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/chicken/Chicken Whole Sadia-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/chicken/Ghee - Gawa-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/chicken/MTR Paneer Tikka Masala-98x98.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/chicken/Sunflower Oil-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_1-248x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_1-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_1-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_2-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_2-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_3-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/hp_3-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/htc_touch_hd_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/htc_touch_hd_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/htc_touch_hd_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/imac_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/imac_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/imac_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/iphone_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/iphone_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/iphone_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/iphone_1-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_1-248x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_1-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_1-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_2-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_2-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_3-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_3-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_4-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_4-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_nano_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_nano_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_nano_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/logo-100x100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_1-248x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_1-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_2-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_2-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_3-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_3-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_4-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_4-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_5-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_5-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_1-248x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_1-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_2-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_2-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_3-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_3-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_4-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_4-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_pro_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_pro_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_pro_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/macbook_pro_1-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/matton/Mix Bakra-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/matton/Mutton With Bone-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/matton/Shank Slice-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/matton/Tandoori Masala-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/matton/Turmeric Powder4-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/nikon_d300_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/nikon_d300_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/palm_treo_pro_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/palm_treo_pro_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/palm_treo_pro_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/samsung_syncmaster_941bw-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/samsung_syncmaster_941bw-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/samsung_syncmaster_941bw-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/shelf/ABC Salty Soya Sauce-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/shelf/Maggi Noodle 2 MIN-146x145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_1-120x120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_1-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_1-248x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_1-40x40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_1-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_1-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_2-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_2-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_3-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_3-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_4-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_4-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_5-100x100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_5-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_5-68x74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/no_image-150x164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/no_image-98x98.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/catpic/apple_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/catpic/beef.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/catpic/c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/catpic/canon_eos_5d_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/catpic/canon_eos_5d_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/catpic/canon_eos_5d_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/catpic/canon_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/AMK Chinese Chilli (Srilanka).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/AMK Samba Rice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/Beef Boneless Australia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/Beef Boneless Australia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/Boneless Australia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/Chicken Leg Tray.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/Chicken Whole Sadia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/Ghee - Gawa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/MTR Paneer Tikka Masala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/Sunflower Oil.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/chicken/hp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/matton/Mix Bakra.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/matton/Mutton With Bone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/matton/Shank Slice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/matton/Tandoori Masala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/matton/Turmeric Powder4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/matton/canon_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/matton/cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/matton/compaq_presario.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/matton/hp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/shelf/ABC Salty Soya Sauce.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/shelf/AMK Samba Rice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/shelf/Maggi Noodle 2 MIN.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/shelf/canon_eos_5d_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/shelf/canon_eos_5d_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/shelf/canon_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/shelf/cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/shelf/compaq_presario.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/data/shelf/hp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.currency.1395995667" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.language.1395995667" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.manufacturer.1395995667" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.product.bestseller.1.10.1395995726" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.product.latest.1.16.1395995667" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/foodasia.css" afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/apple_cinema_30-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/apple_logo-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/apple_logo-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/canon_eos_5d_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/canon_logo-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/canon_logo-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/cart-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/cart-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/compaq_presario-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/compaq_presario-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/hp_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/hp_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/hp_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/hp_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/hp_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/hp_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/hp_logo-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/hp_logo-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/htc_logo-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/htc_logo-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/htc_touch_hd_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/htc_touch_hd_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/htc_touch_hd_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/htc_touch_hd_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/htc_touch_hd_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/htc_touch_hd_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/imac_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/imac_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/imac_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/imac_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/imac_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/imac_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/iphone_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/iphone_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/iphone_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/iphone_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/iphone_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/iphone_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/iphone_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/iphone_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/iphone_5-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/iphone_5-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/iphone_6-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/iphone_6-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_classic_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_classic_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_classic_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_classic_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_classic_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_nano_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_nano_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_nano_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_nano_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_nano_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_nano_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_nano_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_nano_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_nano_5-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_nano_5-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_5-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_shuffle_5-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_touch_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_touch_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_touch_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_touch_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_5-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_touch_5-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_6-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_touch_6-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/ipod_touch_7-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/ipod_touch_7-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_5-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_5-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_air_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_air_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_air_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_air_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_air_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_pro_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_pro_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_pro_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_pro_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_pro_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_pro_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/macbook_pro_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/macbook_pro_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/nikon_d300_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/nikon_d300_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/nikon_d300_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/nikon_d300_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/nikon_d300_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/nikon_d300_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/nikon_d300_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/nikon_d300_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/nikon_d300_5-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/nikon_d300_5-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/palm_logo-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/palm_logo-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/palm_treo_pro_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/palm_treo_pro_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/palm_treo_pro_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/palm_treo_pro_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/palm_treo_pro_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/palm_treo_pro_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/samsung_syncmaster_941bw-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/samsung_syncmaster_941bw-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/sony_logo-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/sony_logo-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_1-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/sony_vaio_1-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_2-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/sony_vaio_2-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_3-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/sony_vaio_3-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/sony_vaio_4-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/data/sony_vaio_4-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/no_image-100x100.jpg" afterPath="$PROJECT_DIR$/image/cache/no_image-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/no_image-40x40.jpg" afterPath="$PROJECT_DIR$/image/cache/no_image-40x40.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/config.php" afterPath="$PROJECT_DIR$/admin/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/english/common/footer.php" afterPath="$PROJECT_DIR$/admin/language/english/common/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/common/header.tpl" afterPath="$PROJECT_DIR$/admin/view/template/common/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/home.php" afterPath="$PROJECT_DIR$/catalog/controller/common/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/module/category.php" afterPath="$PROJECT_DIR$/catalog/controller/module/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/product/product.php" afterPath="$PROJECT_DIR$/catalog/controller/product/product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/product/products.php" afterPath="$PROJECT_DIR$/catalog/controller/product/products.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_right.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_right.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/home.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/home.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/information/sitemap.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/information/sitemap.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/products.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/products.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/special.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/special.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/logs/error.txt" afterPath="$PROJECT_DIR$/system/logs/error.txt" />
+    </list>
+    <ignored path="honoka.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="honoka" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="category.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="askaquestion.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/askaquestion.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7463592">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/common/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="column_right.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/common/column_right.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="review.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/review.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="special.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/special.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="122" selection-start-line="41" selection-start-column="122" selection-end-line="41" selection-end-column="122" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tellafriend.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/tellafriend.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delevery_details.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/delevery_details.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manufacturer.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/manufacturer.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/admin/config.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/home.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl" />
+        <option value="$PROJECT_DIR$/admin/view/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/admin/language/english/common/footer.php" />
+        <option value="$PROJECT_DIR$/admin/view/template/catalog/product_list.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/products.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/products.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/module/category.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_right.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/home.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/information/sitemap.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/special.tpl" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="277" />
+    <option name="y" value="23" />
+    <option name="width" value="1388" />
+    <option name="height" value="945" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="information" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honoka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v4.2.1/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/catalog/view/theme/default/images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0a90bb1-f472-41c2-9ec3-c0413ff63d2f" name="Default" comment="" />
+      <created>1453597427132</created>
+      <option name="number" value="Default" />
+      <updated>1453597427132</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="277" y="23" width="1388" height="945" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30115274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/sunrose/honoka1/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20024271">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/common/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33249685">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75">
+          <caret line="159" column="12" selection-start-line="159" selection-start-column="12" selection-end-line="159" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/sunrose/honoka1/catalog/view/theme/default/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18203883">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/language/english/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05461165">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16262136">
+          <caret line="123" column="54" selection-start-line="123" selection-start-column="54" selection-end-line="123" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/sunrose/honoka1/admin/view/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21480583">
+          <caret line="15" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/sunrose/honoka1/catalog/controller/common/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4368932">
+          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22584693">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/catalog/product_list.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35315534">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/products.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.156863">
+          <caret line="72" column="53" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.72549">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.583334">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/sunrose/honoka1/catalog/controller/module/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2083334">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/column_right.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27305827">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39927185">
+          <caret line="148" column="26" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/information/pages.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/information/information.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/catalog/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.583738">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/checkout/extension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/catalog/information.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14563107">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/column_left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09410289">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2184466">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/information/sitemap.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.091019414">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/information/contact.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07281554">
+          <caret line="4" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18203883">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3137255">
+          <caret line="77" column="88" selection-start-line="77" selection-start-column="88" selection-end-line="77" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/askaquestion.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7463592">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/column_right.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/review.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/special.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="122" selection-start-line="41" selection-start-column="122" selection-end-line="41" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/tellafriend.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/delevery_details.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/manufacturer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -21,8 +21,8 @@
       
       <div class="ContLeftTitle"><img src="catalog/view/theme/default/images/addtitle.jpg" alt="Advertisements" /></div>
       <div class="ContLeftDes">
-       <img src="catalog/view/theme/default/images/Betarpic.jpg" alt="Advertisements" />
-       <img src="catalog/view/theme/default/images/addpic.jpg" alt="Advertisements" />
+       <img src="catalog/view/theme/default/images/advertisement_fujitsu_lifebook.jpg" alt="Advertisements" width="235px" />
+       <img src="catalog/view/theme/default/images/advertisement_hp_products.jpg" alt="Advertisements" width="235px" />
       </div>
       
     </div>

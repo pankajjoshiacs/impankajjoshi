@@ -163,7 +163,7 @@ class ControllerProductProduct extends Controller {
 			$this->load->helper('image');
 			
 			if ($product_info['image']) {
-				$image = 'no_image.jpg';//$product_info['image'];
+				$image = $product_info['image'];
 			} else {
 				$image = 'no_image.jpg';
 			}	

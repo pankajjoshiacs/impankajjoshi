@@ -78,7 +78,6 @@
             <div class="PdoucPic"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" title="<?php echo $product['name']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
             
             <div class="ProductDetail"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
-            <div class="ProductDetail"><?php echo $product['weight']; ?></div>
             
             <?php if ($display_price) { ?>
             

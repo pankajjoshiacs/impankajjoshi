@@ -10,7 +10,7 @@
 <?php if ($icon) { ?>
 <link href="image/<?php echo $icon; ?>" rel="icon" />
 <?php } ?>
-<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/foodasia.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/common.css" />
 <!--[if lt IE 7]>
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/ie6.css" />
 <script type="text/javascript" src="catalog/view/javascript/unitpngfix/unitpngfix.js"></script>
