@@ -37,10 +37,10 @@
   <!--HEADER STARTS HERE-->
    <div class="hedwraper">
       <div class="HedTop">
-        <!--<div class="LogoHolder"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $store; ?>" alt="<?php echo $store; ?>" /></a></div>-->
-        <div class="LogoHolder"><a href="<?php echo ""; ?>"><img src="<?php echo ""; ?>" title="<?php echo ""; ?>" alt="<?php echo ""; ?>" /></a></div>
+        <div class="LogoHolder"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $store; ?>" alt="<?php echo $store; ?>" /></a></div>
+        <!--<div class="LogoHolder"><a href="<?php echo ""; ?>"><img src="<?php echo ""; ?>" title="<?php echo ""; ?>" alt="<?php echo ""; ?>" /></a></div>-->
 	<div class="HedTopRight">
-           <div class="HedTopHelp"><a href="index.php?route=/information/pages&page_id=7" class="nyroModal">Why buy from us?</a><br />Help&nbsp;Line:&nbsp;<small>+81-80-6744-8068</small></div>     <div class="ShopingBox">
+           <div class="HedTopHelp"><a href="index.php?route=/information/pages&page_id=7" class="nyroModal">Why buy from us?</a><br />Help&nbsp;Line:&nbsp;<small><?php echo $telephone; ?></small></div>     <div class="ShopingBox">
               <div class="ShopingLeft"></div>
                <div class="ShopingMed">
                  <h3><a href="<?php echo $cart_href; ?>"><img src="catalog/view/theme/default/images/Sopinpic.jpg" alt="Shopping Cart" /> Shopping Cart </a></h3>
@@ -58,37 +58,36 @@
                    <a href="<?php echo $account; ?>" title="My Account" target="_self">My Account</a>
                    <?php } ?>
                  </div>
-               </div>
-              <div class="ShopingRight"></div>
+                <div class="ShopingRight"></div>
+             </div>
            </div>
-         </div>
-      </div>
-      <div class="navHolder">
-         <div class="NavLeft">
-            <a href="<?php echo $home; ?>" id="tab_home" class="butnhome" title="HOME">HOME</a>
-            <a href="<?php echo $about; ?>" id="tab_about" class="butnabout" title="ABOUT US">ABOUT US</a>
-            <a href="<?php echo $product; ?>" id="tab_product" class="butnproduct" title="PRODUCTS">PRODUCTS</a>
-            <a href="<?php echo $policy; ?>" id="tab_policy" class="butnpolicy" title="SHIPPING POLICY">SHIPPING POLICY</a>
-            <a href="<?php echo $special; ?>" id="tab_special" class="butnspecial" title="SPECIAL PRODUCTS">SPECIAL PRODUCTS</a>
-            <a href="<?php echo $contact; ?>" id="tab_contanct" class="butncontact" title="CONTACT US">CONTACT US</a>
-         </div>
-         
-         <div class="NavSearch">
-          <form action="" onsubmit="return false;"> 
-          <?php if ($keyword) { ?>
-          <input type="text" value="<?php echo $keyword; ?>" id="filter_keyword" class="navInput" />
-          <?php } else { ?>
-          <input type="text" value="<?php echo $text_keyword; ?>" id="filter_keyword" onclick="this.value = '';" class="navInput" />
-          <?php } ?>
-          
-          <input type="hidden" value="0" id="filter_category_id" />
-          <input type="submit" class="navSubmit" value="" onclick="moduleSearch();" />
-          </form>
-         </div>
-      </div>
-      <div class="HedBlank"></div>
-   </div> 
-  <!--HEADER ENDS HERE-->
+        </div>
+        <div class="navHolder">
+           <div class="NavLeft">
+              <a href="<?php echo $home; ?>" id="tab_home" class="butnhome" title="HOME">HOME</a>
+              <a href="<?php echo $about; ?>" id="tab_about" class="butnabout" title="ABOUT US">ABOUT US</a>
+              <a href="<?php echo $product; ?>" id="tab_product" class="butnproduct" title="PRODUCTS">PRODUCTS</a>
+              <a href="<?php echo $policy; ?>" id="tab_policy" class="butnpolicy" title="SHIPPING POLICY">SHIPPING POLICY</a>
+              <a href="<?php echo $special; ?>" id="tab_special" class="butnspecial" title="SPECIAL PRODUCTS">SPECIAL PRODUCTS</a>
+              <a href="<?php echo $contact; ?>" id="tab_contanct" class="butncontact" title="CONTACT US">CONTACT US</a>
+           </div>
+
+           <div class="NavSearch">
+            <form action="" onsubmit="return false;">
+            <?php if ($keyword) { ?>
+            <input type="text" value="<?php echo $keyword; ?>" id="filter_keyword" class="navInput" />
+            <?php } else { ?>
+            <input type="text" value="<?php echo $text_keyword; ?>" id="filter_keyword" onclick="this.value = '';" class="navInput" />
+            <?php } ?>
+
+            <input type="hidden" value="0" id="filter_category_id" />
+            <input type="submit" class="navSubmit" value="" onclick="moduleSearch();" />
+            </form>
+           </div>
+        </div>
+        <div class="HedBlank"></div>
+     </div>
+    <!--HEADER ENDS HERE-->
 
 
 

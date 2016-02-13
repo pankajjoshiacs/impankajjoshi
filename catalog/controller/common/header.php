@@ -42,6 +42,7 @@ class ControllerCommonHeader extends Controller {
 		$this->data['icon'] = $this->config->get('config_icon');
 		
 		$this->data['store'] = $this->config->get('config_store');
+		$this->data['telephone'] = $this->config->get('config_telephone');
 		
 		if (isset($this->request->server['HTTPS']) && ($this->request->server['HTTPS'] == 'on')) {
 			$this->data['logo'] = HTTPS_IMAGE . $this->config->get('config_logo');
