@@ -18,6 +18,11 @@
       
   <div class="middle">
     <form action="<?php echo str_replace('&', '&amp;', $action); ?>" method="post" enctype="multipart/form-data" id="contact">
+
+      <div class="content">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1620.085229486397!2d139.7717737!3d35.6974227!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQxJzUwLjQiTiAxMznCsDQ2JzIxLjciRQ!5e0!3m2!1sen!2sjp!4v1455370562030" width="689.74" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
       <div class="content">
         <div style="display: inline-block; width: 100%;">
           <div style="float: left; display: inline-block; width: 50%;"><b><?php echo $text_address; ?></b><br />
