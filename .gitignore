@@ -1,0 +1,17 @@
+# System Cache
+system/cache
+
+# Image cache
+image/cache
+
+# workspace.xml
+.idea/workspace.xml
+
+# DS_store
+catalog/view/.DS_Store
+catalog/.DS_Store
+
+
+
+
+
