@@ -24,5 +24,15 @@
        <img src="catalog/view/theme/default/images/advertisement_fujitsu_lifebook.jpg" alt="Advertisements" width="235px" />
        <img src="catalog/view/theme/default/images/advertisement_hp_products.jpg" alt="Advertisements" width="235px" />
       </div>
-      
+
+      <div class="ContLeftTitle"><img src="catalog/view/theme/default/images/help.jpg" alt="Need Help" /></div>
+        <div class="ContLeftDes">
+          <h3>Give us a call!</h3>
+      </div>
+      <div class="Spedes">
+        <small>We'll do our best to help!</small>
+      </div>
+      <div class="ContLeftDes" style="text-align:center;">
+        <big>+81-3-6206-0188</big>
+      </div>
     </div>
