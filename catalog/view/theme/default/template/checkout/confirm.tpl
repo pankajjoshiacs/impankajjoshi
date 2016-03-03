@@ -33,7 +33,6 @@
       <table width="100%" id="shopCart">
         <tr>
           <th align="left"><?php echo $column_product; ?></th>
-          <th align="left"><?php echo $column_model; ?></th>
           <th align="right"><?php echo $column_quantity; ?></th>
           <th align="right"><?php echo $column_price; ?></th>
           <th align="right"><?php echo $column_total; ?></th>
@@ -45,7 +44,7 @@
             <br />
             &nbsp;<small> - <?php echo $option['name']; ?> <?php echo $option['value']; ?></small>
             <?php } ?></td>
-          <td align="left" valign="top"><?php echo $product['weight']; ?></td>
+          <!--<td align="left" valign="top"><?php echo $product['weight']; ?></td>-->
           <td align="right" valign="top"><?php echo $product['quantity']; ?></td>
           <td align="right" valign="top"><?php echo $product['price']; ?></td>
           <td align="right" valign="top"><?php echo $product['total']; ?></td>
