@@ -108,7 +108,7 @@ class ControllerProductSearch extends Controller {
 			$weightClasses = $this->model_catalog_product->getWeightClasses();
 			
 			$product_total = $this->model_catalog_product->getTotalProductsByKeyword($this->request->get['keyword'], isset($this->request->get['category_id']) ? $this->request->get['category_id'] : '', isset($this->request->get['description']) ? $this->request->get['description'] : '');
-						
+
 			if ($product_total) {
 				$url = '';
 
@@ -130,7 +130,7 @@ class ControllerProductSearch extends Controller {
         		
 				foreach ($results as $result) {
 					if ($result['image']) {
-						$image = 'no_image.jpg';//$result['image'];
+						$image = $result['image'];
 					} else {
 						$image = 'no_image.jpg';
 					}						

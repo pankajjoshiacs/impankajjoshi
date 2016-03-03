@@ -42,6 +42,7 @@
                 <?php } else { ?>
                 <input type="text" value="<?php echo $text_keyword; ?>" id="keyword" onclick="this.value = '';" class="largeText" style="position:relative; top:2px;"/>
                 <?php } ?>
+                <!--
                 <select id="category_id" class="largeSelect">
                   <option value="0"><?php echo $text_category; ?></option>
                   <?php foreach ($categories as $category) { ?>
@@ -51,7 +52,9 @@
                   <option value="<?php echo $category['category_id']; ?>"><?php echo $category['name']; ?></option>
                   <?php } ?>
                   <?php } ?>
-                </select></td>
+                </select>
+                -->
+              </td>
             </tr>
             
           </table>

@@ -27,7 +27,7 @@
     <?php } else {?>
     <div class="content">
     <h3>Ask a question about - <?php if(isset($product_name)) echo $product_name; ?></h3><br />
-    Here at Tom Murphy&rsquo;s we take pride in our customer relations. We aim to answer any questions you may have in as much detail as possible. We will hopefully have a response to your questions back to you within 24 hours. 
+    Here at Honoka Computers we take pride in our customer relations. We aim to answer any questions you may have in as much detail as possible. We will hopefully have a response to your questions back to you within 24 hours.
     </div>
     <form class="nyroModal" action="<?php echo $action; ?>" method="post" id="sendData">
       <div class="content">

@@ -90,14 +90,15 @@ class ModelCatalogProduct extends Model {
 	
 	public function getProductsByKeyword($keyword, $category_id = 0, $description = FALSE, $sort = 'pd.name', $order = 'ASC', $start = 0, $limit = 20) {
 		if ($keyword) {
-			$sql = "SELECT *, pd.name AS name, p.image, m.name AS manufacturer, ss.name AS stock, (SELECT AVG(r.rating) FROM " . DB_PREFIX . "review r WHERE p.product_id = r.product_id GROUP BY r.product_id) AS rating FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_category p2c ON (p.product_id = p2c.product_id) LEFT JOIN " . DB_PREFIX . "manufacturer m ON (p.manufacturer_id = m.manufacturer_id) LEFT JOIN " . DB_PREFIX . "stock_status ss ON (p.stock_status_id = ss.stock_status_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND ss.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+			//$sql = "SELECT *, pd.name AS name, p.image, m.name AS manufacturer, ss.name AS stock, (SELECT AVG(r.rating) FROM " . DB_PREFIX . "review r WHERE p.product_id = r.product_id GROUP BY r.product_id) AS rating FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_category p2c ON (p.product_id = p2c.product_id) LEFT JOIN " . DB_PREFIX . "manufacturer m ON (p.manufacturer_id = m.manufacturer_id) LEFT JOIN " . DB_PREFIX . "stock_status ss ON (p.stock_status_id = ss.stock_status_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND ss.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+			$sql = "SELECT *, pd.name AS name, p.image, m.name AS manufacturer, ss.name AS stock, (SELECT AVG(r.rating) FROM " . DB_PREFIX . "review r WHERE p.product_id = r.product_id GROUP BY r.product_id) AS rating FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "manufacturer m ON (p.manufacturer_id = m.manufacturer_id) LEFT JOIN " . DB_PREFIX . "stock_status ss ON (p.stock_status_id = ss.stock_status_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND ss.language_id = '" . (int)$this->config->get('config_language_id') . "'";
 			
 			if (!$description) {
 				$sql .= " AND pd.name LIKE '%" . $this->db->escape($keyword) . "%'";
 			} else {
 				$sql .= " AND (pd.name LIKE '%" . $this->db->escape($keyword) . "%' OR pd.description LIKE '%" . $this->db->escape($keyword) . "%')";
 			}
-			
+			/*
 			if ($category_id) {
 				$data = array();
 				
@@ -110,7 +111,7 @@ class ModelCatalogProduct extends Model {
 				}
 				
 				$sql .= " AND (" . implode(" OR ", $data) . ")";
-			}
+			}*/
 		
 			$sql .= " AND p.status = '1' AND p.date_available <= NOW()";
 		
@@ -148,14 +149,15 @@ class ModelCatalogProduct extends Model {
 	
 	public function getTotalProductsByKeyword($keyword, $category_id = 0, $description = FALSE) {
 		if ($keyword) {
-			$sql = "SELECT COUNT(*) AS total FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_category p2c ON (p.product_id = p2c.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+			//$sql = "SELECT COUNT(*) AS total FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_category p2c ON (p.product_id = p2c.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+			$sql = "SELECT COUNT(*) AS total FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
 			
 			if (!$description) {
 				$sql .= " AND pd.name LIKE '%" . $this->db->escape($keyword) . "%'";
 			} else {
 				$sql .= " AND (pd.name LIKE '%" . $this->db->escape($keyword) . "%' OR pd.description LIKE '%" . $this->db->escape($keyword) . "%')";
 			}
-
+			/*
 			if ($category_id) {
 				$data = array();
 				
@@ -169,7 +171,7 @@ class ModelCatalogProduct extends Model {
 				
 				$sql .= " AND (" . implode(" OR ", $data) . ")";
 			}
-			
+			*/
 			$sql .= " AND p.status = '1' AND p.date_available <= NOW()";
 			
 			$query = $this->db->query($sql);
