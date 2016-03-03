@@ -85,7 +85,7 @@
            <a onclick="$('#cart').submit();" target="_self" title="Update" class="CartUpdate">Update</a>
            <a onclick="location='<?php echo $continue; ?>'" target="_self" title="Continue Shopping" class="CartShoping">Continue Shopping</a>
            <a onclick="location='<?php echo $checkout; ?>'" target="_self" title="Checkout" class="CartCheckout">Checkout</a>
-           <a href="#" target="_self" title="Paypal" class="ChecPaypal">Paypal</a>
+           <!--<a href="#" target="_self" title="Paypal" class="ChecPaypal">Paypal</a>-->
           </div>
          </form>
          
