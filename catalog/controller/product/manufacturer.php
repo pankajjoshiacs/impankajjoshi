@@ -66,7 +66,7 @@ class ControllerProductManufacturer extends Controller {
 				
         		foreach ($results as $result) {
 					if ($result['image']) {
-						$image = 'no_image.jpg';//$result['image'];
+						$image = $result['image'];
 					} else {
 						$image = 'no_image.jpg';
 					}

@@ -1,56 +1,84 @@
-<?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
-<div id="content">
-  <div class="top">
-    <div class="left"></div>
-    <div class="right"></div>
-    <div class="center">
-      <h1><?php echo $heading_title; ?></h1>
-    </div>
-  </div>
-  <div class="middle">
-    <div class="sort">
-      <div class="div1">
-        <select name="sort" onchange="location=this.value">
-          <?php foreach ($sorts as $sorts) { ?>
-          <?php if (($sort . '-' . $order) == $sorts['value']) { ?>
-          <option value="<?php echo $sorts['href']; ?>" selected="selected"><?php echo $sorts['text']; ?></option>
-          <?php } else { ?>
-          <option value="<?php echo $sorts['href']; ?>"><?php echo $sorts['text']; ?></option>
-          <?php } ?>
-          <?php } ?>
-        </select>
+<?php echo $header; ?>
+<!--CONTAINER STARTS HERE-->
+<div class="ContainHolder">
+
+  <?php echo $column_left; ?>
+
+  <div class="ContRight">
+    <div class="ContRightBot">
+      <div class="ContRightBotTitle">
+        <div class="LtstLeft"></div>
+        <div class="Ltstmed">
+          <span style="float:left; width:40%;"><?php echo $heading_title; ?></span>
+
+          <div class="sort">
+            <div class="div1">
+              <select name="sort" onchange="location=this.value">
+                <?php foreach ($sorts as $sorts) { ?>
+                <?php if (($sort . '-' . $order) == $sorts['value']) { ?>
+                <option value="<?php echo $sorts['href']; ?>" selected="selected"><?php echo $sorts['text']; ?></option>
+                <?php } else { ?>
+                <option value="<?php echo $sorts['href']; ?>"><?php echo $sorts['text']; ?></option>
+                <?php } ?>
+                <?php } ?>
+              </select>
+            </div>
+            <div class="div2"><?php echo $text_sort; ?></div>
+          </div>
+
+        </div>
+        <div class="LtstRight"></div>
       </div>
-      <div class="div2"><?php echo $text_sort; ?></div>
-    </div>
-    <table class="list">
-      <?php for ($i = 0; $i < sizeof($products); $i = $i + 4) { ?>
-      <tr>
-        <?php for ($j = $i; $j < ($i + 4); $j++) { ?>
-        <td width="25%"><?php if (isset($products[$j])) { ?>
-          <a href="<?php echo $products[$j]['href']; ?>"><img src="<?php echo $products[$j]['thumb']; ?>" title="<?php echo $products[$j]['name']; ?>" alt="<?php echo $products[$j]['name']; ?>" /></a><br />
-          <a href="<?php echo $products[$j]['href']; ?>"><?php echo $products[$j]['name']; ?></a><br />
-          <span style="color: #999; font-size: 11px;"><?php echo $products[$j]['model']; ?></span><br />
+
+      <?php if ($products) { ?>
+
+      <div class="ProDctCatBox">
+
+        <?php $count = 1; foreach($products as $product){ ?>
+
+        <div class="PdoucCat">
+          <div class="PdoucPic"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" title="<?php echo $product['name']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
+
+          <div class="ProductDetail"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+
           <?php if ($display_price) { ?>
-          <?php if (!$products[$j]['special']) { ?>
-          <span style="color: #900; font-weight: bold;"><?php echo $products[$j]['price']; ?></span><br />
-          <?php } else { ?>
-          <span style="color: #900; font-weight: bold; text-decoration: line-through;"><?php echo $products[$j]['price']; ?></span> <span style="color: #F00;"><?php echo $products[$j]['special']; ?></span>
+
+          <?php if (!$product['special']) { ?>
+          <div class="ProductDetail"><b>Price : <?php echo $product['price']; ?></b></div>
+          <?php }else{ ?>
+          <div class="ProductDetail"><b>Price : <span style="text-decoration: line-through; color:#999999;"><?php echo $product['price']; ?></span>&nbsp;<?php echo $product['price']; ?></b></div>
           <?php } ?>
+
           <?php } ?>
-          <?php if ($products[$j]['rating']) { ?>
-          <img src="catalog/view/theme/default/image/stars_<?php echo $products[$j]['rating'] . '.png'; ?>" alt="<?php echo $products[$j]['stars']; ?>" />
-          <?php } ?>
-          <?php } ?></td>
+
+          <div class="ProductDetail2">
+            <a href="<?php echo $product['href']; ?>" target="_self" title="Details" class="pdtlslnk">Details</a>
+            <form action="<?php echo $cart_action; ?>" method="post" enctype="multipart/form-data" id="product_<?php echo $product['product_id']; ?>">
+              <input type="hidden" name="quantity" value="1" />
+              <input type="hidden" name="product_id" value="<?php echo $product['product_id']; ?>" />
+              <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
+              <a onclick="$('#product_<?php echo $product['product_id']; ?>').submit();" title="Add to cart" class="AdLink">Add to cart</a>
+            </form>
+          </div>
+
+        </div>
+
+        <?php if($count%4 == 0 and $count != count($products)){ ?>
+      </div><div class="ProDctCatBox">
         <?php } ?>
-      </tr>
+
+        <?php $count ++; } ?>
+      </div>
+
+      <div class="pagination"><?php echo $pagination; ?></div>
+
+      <?php }else{ ?>
+      <div class="not-found">Item not found!</div>
       <?php } ?>
-    </table>
-    <div class="pagination"><?php echo $pagination; ?></div>
-  </div>
-  <div class="bottom">
-    <div class="left"></div>
-    <div class="right"></div>
-    <div class="center"></div>
+
+    </div>
   </div>
 </div>
+<!--CONTAINER ENDS HERE-->
+
 <?php echo $footer; ?> 
