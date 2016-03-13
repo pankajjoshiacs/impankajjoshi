@@ -1,8 +1,7 @@
 <?php
 class ControllerModuleCategory extends Controller {
-	protected $category_id = 0;
-	protected $path = array();
-	protected $separator = "|_";
+	protected $path = "";
+	protected $breadcump = array();
 
 	protected function index() {
 		$this->language->load('module/category');
@@ -13,13 +12,9 @@ class ControllerModuleCategory extends Controller {
 		$this->load->model('tool/seo_url');
 
 		if (isset($this->request->get['path'])) {
-			$this->path = explode('_', $this->request->get['path']);
-
-			$this->category_id = end($this->path);
+			$this->path = $this->request->get['path'];
 		}
-
-		$this->data['category'] = $this->getCategories(0);
-
+		$this->data['category'] = ($this->path != "") ? $this->getCategories($this->path) : $this->getCategories(0);
 		$this->id = 'category';
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/category.tpl')) {
@@ -31,11 +26,33 @@ class ControllerModuleCategory extends Controller {
 		$this->render();
 	}
 
-	protected function getCategories($parent_id, $current_path = '') {
-		$this->separator .= "_";
-		$category_id = array_shift($this->path);
-		$output = '';
+	private function getBreadcump($category_id) {
+		if ($category_id != 0) {
+			$result = $this->model_catalog_category->getCategory($category_id);
+			$this->breadcump[] = $result["name"] . "_" . $result["category_id"];
+			$this->getBreadcump($result['parent_id']);
+		}
+		return $this->breadcump;
+	}
 
+	protected function getCategories($parent_id, $current_path = '') {
+		$breadCump = $this->getBreadcump($this->path);
+		$category_id = $this->path;
+
+		$output = '';
+		$output .= '<div class="">';
+		if ($parent_id != 0) {
+			$output .= '<a href="' . $this->model_tool_seo_url->rewrite($this->url->http('common/home')) . '">TOP</a>';
+			$output .= " > ";
+			for ($i = count($breadCump)-1; $i >= 0 ; $i--) {
+				$link = explode("_", $breadCump[$i]);
+				$output .= '<a href="' . $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $link[1])) . '">' . $link[0] . '</a>';
+				if ($i > 0) {
+					$output .= " > ";
+				}
+			}
+		}
+		$output .= '</div>';
 		$results = $this->model_catalog_category->getCategories($parent_id);
 
 		if ($results) {
@@ -43,12 +60,12 @@ class ControllerModuleCategory extends Controller {
 		}
 
 		$classname = 'Catlnk1';
-		$parentCat ='';
+
 		foreach ($results as $result) {
 			if (!$current_path) {
 				$new_path = $result['category_id'];
 			} else {
-				$new_path = $current_path . '_' . $result['category_id'];
+				$new_path = $current_path;
 			}
 
 			if( $classname == 'Catlnk1' )
@@ -62,17 +79,7 @@ class ControllerModuleCategory extends Controller {
 			if ($category_id == $result['category_id']) {
 				$children = $this->getCategories($result['category_id'], $new_path);
 			}
-
-			if ($this->category_id == $result['category_id'] && $result['parent_id'] != 0 ) {
-				$output .= '<a href="' . $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $new_path))  . '" class="'.$classname.' cat-selected">' . $this->separator . $result['name'] . '</a>';
-				$parentCat = $result['name'];
-			} else if ($this->category_id == $result['parent_id'] && $result['parent_id'] != 0) {
-				$output .= '<a href="' . $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $new_path))  . '" class="'.$classname.'">' . $parentCat . $this->separator . $result['name'] . '</a>';
-			} else if ($result['parent_id'] != 0) {
-				$output .= '<a href="' . $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $new_path))  . '" class="'.$classname.'">' . $this->separator . $result['name'] . '</a>';
-			} else {
-				$output .= '<a href="' . $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $new_path))  . '" class="'.$classname.'">' . $result['name'] . '</a>';
-			}
+			$output .= '<a href="' . $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $new_path))  . '" class="'.$classname.'">' . $result['name'] . '</a>';
 
 			$output .= $children;
 
@@ -83,6 +90,27 @@ class ControllerModuleCategory extends Controller {
 			$output .= '</ul>';
 		}
 
+		if ($parent_id != 0) {
+			$output .= '<div class="ContLeftTitle"><img src="catalog/view/theme/default/images/topcategories.jpeg" alt="Top Categories" /></div>';
+			$output .= '<div class="ContLeftDes">';
+			$output .= $this->getTopCategories($parent_id);
+			$output .= '</div>';
+		}
+		return $output;
+	}
+
+	protected function getTopCategories($current_path) {
+		$results = $this->model_catalog_category->getCategories(0);
+		$classname = 'Catlnk1';
+		$output = "<ul>";
+		foreach ($results as $result) {
+			if ($current_path != $result['category_id']) {
+				$output .= '<li>';
+				$output .= '<a href="' . $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $result['category_id'])) . '" class="' . $classname . '">' . $result['name'] . '</a>';
+				$output .= '</li>';
+			}
+		}
+		$output .= '</ul>';
 		return $output;
 	}
 }
