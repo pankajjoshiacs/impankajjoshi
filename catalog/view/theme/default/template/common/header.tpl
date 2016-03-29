@@ -29,9 +29,21 @@
 <?php foreach ($scripts as $script) { ?>
 <script type="text/javascript" src="view/javascript/jquery/<?php echo $script; ?>"></script>
 <?php } ?>
+	<meta property="og:url"           content="http://www.honokacomputers.com" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Online store for electronics" />
+	<meta property="og:description"   content="We sell PCs, laptops, smartphones and tablets" />
+	<meta property="og:image"         content="catalog/view/theme/default/images/advertisement_fujitsu_lifebook.jpg" />
 </head>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="mainwraper">
   <!--HEADER STARTS HERE-->
@@ -58,8 +70,8 @@
                    <a href="<?php echo $account; ?>" title="My Account" target="_self">My Account</a>
                    <?php } ?>
                  </div>
-                <div class="ShopingRight"></div>
              </div>
+			<div class="ShopingRight"></div>
            </div>
         </div>
         <div class="navHolder">

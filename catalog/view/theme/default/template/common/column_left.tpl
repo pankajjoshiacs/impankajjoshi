@@ -18,7 +18,7 @@
       </div>
       <?php } ?>
       
-      
+
       <div class="ContLeftTitle"><img src="catalog/view/theme/default/images/addtitle.jpg" alt="Advertisements" /></div>
       <div class="ContLeftDes">
        <img src="catalog/view/theme/default/images/advertisement_fujitsu_lifebook.jpg" alt="Advertisements" width="235px" />
@@ -36,3 +36,14 @@
         <big>+81-3-6206-0188</big>
       </div>
     </div>
+<!--
+    <div class="ContLeftTitle"><img src="catalog/view/theme/default/images/help.jpg" alt="Need Help" /></div>
+    <div class="ContLeftDes">
+        <div class="fb-page"
+             data-href="https://www.facebook.com/Honoka-Computers-920755354706843"
+             data-width="380"
+             data-hide-cover="false"
+             data-show-facepile="false"
+             data-show-posts="false"></div>
+    </div>
+    </div>-->

@@ -1206,3 +1206,50 @@ table#shopCart th {
 table#shopCart td {
 	padding: 5px;
 }
+
+.productBox {
+	width: 100%;
+	float: left;
+	display: inline;
+	_zoom: 1;
+	position: relative;
+}
+
+.oneRowResultSet {
+	background: #ffffff;
+	border-top: 7px solid #cccccc;
+	padding: 10px 7px 7px 7px;
+}
+
+.oneRowProductPic {
+	width: 130px;
+	height: 120px;
+	float: left;
+	background: url(../images/PBox.jpg) no-repeat left top;
+	padding: 10px 10px 10px 10px;
+}
+
+.oneRowProductDetail {
+	width: 70%;
+	height: auto;
+	padding: 5px 20px;
+	font-family: Arial;
+	font-size: 13px;
+	float: left;
+	color: #676666;
+}
+
+.oneRowProductDetail2 {
+	height: auto;
+	float: left;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-size: larger;
+}
+
+.clearfx {
+	clear: both;
+	zoom: 1;
+	min-height: 1px;
+}
+

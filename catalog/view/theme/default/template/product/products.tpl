@@ -58,6 +58,10 @@
                 <input type="hidden" name="product_id" value="<?php echo $product['product_id']; ?>" />
               	<input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
                 <a onclick="$('#product_<?php echo $product['product_id']; ?>').submit();" title="Add to cart" class="AdLink">Add to cart</a>
+                <div class="fb-share-button" style="padding-left: 24px; padding-top: 5px"
+                     data-href="<?php echo $product['href']; ?>"
+                     data-layout="button_count">
+                </div>
                 </form>
             </div>
             

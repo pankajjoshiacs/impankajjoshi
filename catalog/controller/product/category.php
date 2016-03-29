@@ -113,8 +113,10 @@ class ControllerProductCategory extends Controller {
 				
 				$this->data['products'] = array();
         		
-				$results = $this->model_catalog_product->getProductsByCategoryId($category_id, $sort, $order, ($page - 1) * 12, 12);
-				
+				//$results = $this->model_catalog_product->getProductsByCategoryId($category_id, $sort, $order, ($page - 1) * 12, 12);
+
+				$results = $this->model_catalog_product->getAllProductsByCategoryId($category_id, $sort);
+
         		foreach ($results as $result) {
 					if ($result['image']) {
 						$image = $result['image'];
@@ -143,6 +145,7 @@ class ControllerProductCategory extends Controller {
 					$this->data['products'][] = array(
             			'name'    => $result['name'],
 						'model'   => $result['model'],
+						'desc'    => html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8'),
             			'rating'  => $rating,
 						'stars'   => sprintf($this->language->get('text_stars'), $rating),
 						'thumb'   => image_resize($image, $this->config->get('config_image_product_width'), $this->config->get('config_image_product_height')),
@@ -204,14 +207,14 @@ class ControllerProductCategory extends Controller {
 					$url .= '&order=' . $this->request->get['order'];
 				}
 			
-				$pagination = new Pagination();
-				$pagination->total = $product_total;
-				$pagination->page = $page;
-				$pagination->limit = 12; 
-				$pagination->text = $this->language->get('text_pagination');
-				$pagination->url = $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $this->request->get['path'] . $url . '&page=%s'));
-			
-				$this->data['pagination'] = $pagination->render();
+//				$pagination = new Pagination();
+//				$pagination->total = $product_total;
+//				$pagination->page = $page;
+//				$pagination->limit = 12;
+//				$pagination->text = $this->language->get('text_pagination');
+//				$pagination->url = $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $this->request->get['path'] . $url . '&page=%s'));
+//
+//				$this->data['pagination'] = $pagination->render();
 			
 				$this->data['sort'] = $sort;
 				$this->data['order'] = $order;
