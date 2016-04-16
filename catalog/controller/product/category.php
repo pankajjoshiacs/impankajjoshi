@@ -13,7 +13,9 @@ class ControllerProductCategory extends Controller {
 
 		$this->load->model('catalog/category');
 		$this->load->model('tool/seo_url');  
-		
+
+		$viewBy = isset($this->request->get['view']) ? $this->request->get['view'] : 'default';
+
 		if (isset($this->request->get['path'])) {
 			$path = '';
 		
@@ -43,7 +45,7 @@ class ControllerProductCategory extends Controller {
 		}
 		
 		$category_info = $this->model_catalog_category->getCategory($category_id);
-	
+
 		if ($category_info) {
 	  		$this->document->title = $category_info['name'];
 			
@@ -112,10 +114,21 @@ class ControllerProductCategory extends Controller {
 				$this->load->model('catalog/review');
 				
 				$this->data['products'] = array();
-        		
-				//$results = $this->model_catalog_product->getProductsByCategoryId($category_id, $sort, $order, ($page - 1) * 12, 12);
 
-				$results = $this->model_catalog_product->getAllProductsByCategoryId($category_id, $sort);
+				if ($viewBy == 'grid') {
+					$results = $this->model_catalog_product->getProductsByCategoryId($category_id, $sort, $order, ($page - 1) * 12, 12);
+				} else {
+					$categories = $this->model_catalog_category->getCategoriesIds($category_id);
+					$ids = array();
+					foreach($categories as $cat) {
+						$ids[] = $cat["category_id"];
+					}
+					$ids = count($ids) > 0 ? $ids : $category_id;
+					$results = $this->model_catalog_product->getAllProductsByCategoriesIds($ids, $sort);
+				}
+
+				$allCategories = $this->model_catalog_category->getAllCategories();
+
 
         		foreach ($results as $result) {
 					if ($result['image']) {
@@ -143,6 +156,7 @@ class ControllerProductCategory extends Controller {
 					}
 
 					$this->data['products'][] = array(
+						'category_id' => isset($result['category_id']) ? $result['category_id'] : '',
             			'name'    => $result['name'],
 						'model'   => $result['model'],
 						'desc'    => html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8'),
@@ -207,18 +221,18 @@ class ControllerProductCategory extends Controller {
 					$url .= '&order=' . $this->request->get['order'];
 				}
 			
-//				$pagination = new Pagination();
-//				$pagination->total = $product_total;
-//				$pagination->page = $page;
-//				$pagination->limit = 12;
-//				$pagination->text = $this->language->get('text_pagination');
-//				$pagination->url = $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $this->request->get['path'] . $url . '&page=%s'));
-//
-//				$this->data['pagination'] = $pagination->render();
-			
+				$pagination = new Pagination();
+				$pagination->total = $product_total;
+				$pagination->page = $page;
+				$pagination->limit = 12;
+				$pagination->text = $this->language->get('text_pagination');
+				$pagination->url = $this->model_tool_seo_url->rewrite($this->url->http('product/category&path=' . $this->request->get['path'] . $url . '&page=%s' . '&view=' . $viewBy));
+
+				$this->data['pagination'] = $pagination->render();
+				$this->data['view'] = $viewBy;
 				$this->data['sort'] = $sort;
 				$this->data['order'] = $order;
-			
+				$this->data['categories']=$allCategories;
 				if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/product/category.tpl')) {
 					$this->template = $this->config->get('config_template') . '/template/product/category.tpl';
 				} else {
